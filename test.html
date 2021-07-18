@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1 class = "title">Notes App</h1>
+        <form>
+            <input type = "text" placeholder="Note title" id = "title" required /><br>
+            <textarea placeholder = "Your note here..." id = "description" required></textarea> <br>
+            <button id = "notesBtn" class = "addBtn">Add Note</button>
+        </form>
+        <div class = "notes-container" id = "notes-container" onload="addNotes">
+        </div>
+
+
+
+
+        <!-- <a href = "newnotes.html">New notes</a> -->
+       <script src = "script.js"></script>
+    </body>
+</html>
